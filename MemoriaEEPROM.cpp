@@ -1,10 +1,10 @@
 
 #include "MemoriaEEPROM.h"
 
-ICACHE_FLASH_ATTR MemoriaEEPROMClass::MemoriaEEPROMClass(char separador, int size) {
+ICACHE_FLASH_ATTR MemoriaEEPROMClass::MemoriaEEPROMClass() {
+    EEPROMSize = 512;
+    Separador = '|';
     EEPROM.begin(EEPROMSize);
-	Separador = '|';
-	lastYield = 512;
 }
 
 ICACHE_FLASH_ATTR void MemoriaEEPROMClass::ReadEeprom(void) {
