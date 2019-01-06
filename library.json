@@ -1,0 +1,14 @@
+{
+    "name": "MemoriaEEPROM",
+    "keywords": "eeprom",
+    "description": "Leitura de EEPROM",
+    "version": "1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MagoMatematico/MemoriaEEPROM.git"
+    },
+    "frameworks": "arduino",
+    "platforms": [
+        "espressif8266"
+    ]
+}
